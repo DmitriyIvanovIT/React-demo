@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to top, rgba(26,40,120,0.70), rgba(10,143,196,0.70));
+    position: relative;
+
+    .wrap {
+        position: relative;
+        z-index: 1;
+    }
+}
